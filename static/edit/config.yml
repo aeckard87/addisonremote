@@ -1,7 +1,6 @@
 backend:
   name: git-gateway
-  repo: aeckard87/addisonremote # change this to your repo
-  branch: master
+
 publish_mode: editorial_workflow
 media_folder: "images/uploads"
 collections:
