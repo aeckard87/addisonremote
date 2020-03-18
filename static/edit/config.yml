@@ -1,8 +1,5 @@
 backend:
-  name: github
-  branch: site
-  repo: aeckard87/addisonremote # change this to your repo
-  base_url: http://github.com
+  name: git-gateway
 publish_mode: editorial_workflow
 media_folder: "images/uploads"
 collections:
