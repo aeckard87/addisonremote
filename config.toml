@@ -31,5 +31,5 @@ home = [ "HTML", "RSS", "JSON"]
 
 [[menu.shortcuts]]
 name = "<i class='fa fa-edit'></i> <label>Edit Site</label>"
-url = "/admin"
+url = "/edit"
 weight = 30
