@@ -1,0 +1,35 @@
+baseURL = "/"
+
+languageCode = "en-us"
+DefaultContentLanguage = "en"
+title = "Addison 4th Grade Remote School"
+theme = "hugo-theme-learn"
+pygmentsCodefences = true
+pygmentsStyle = "monokai"
+buildDrafts = true
+
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir= false
+enableMissingTranslationPlaceholders = false
+summaryLength = 15
+
+
+[params]
+showVisitedLinks = false # default is false
+themeStyle = "original" # "original" or "flex" # default "flex"
+themeVariant = "" # choose theme variant "green", "gold" , "gray", "blue" (default)
+ordersectionsby = "weight" # ordersectionsby = "title"
+disableHomeIcon = true # default is false
+disableSearch = false # default is false
+disableNavChevron = true # set true to hide next/prev chevron, default is false
+highlightClientSide = false # set true to use highlight.pack.js instead of the default hugo chroma highlighter
+menushortcutsnewtab = false # set true to open shortcuts links to a new tab/window
+enableGitInfo = false
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-edit'></i> <label>Edit Site</label>"
+url = "/admin"
+weight = 30
